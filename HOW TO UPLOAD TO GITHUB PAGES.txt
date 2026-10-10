@@ -1,0 +1,54 @@
+================================================================================
+             HOW TO UPLOAD THIS WEBSITE TO GITHUB PAGES (FREE)
+================================================================================
+
+This folder contains pure HTML, CSS, JavaScript, and music ready to publish!
+
+Follow these simple steps:
+
+STEP 1: CREATE A NEW REPOSITORY ON GITHUB
+  1. Go to https://github.com and log into your account.
+  2. Click the "+" button in the top right, then select "New repository".
+  3. Repository name: enter a name like "for-ava" or "for-my-love".
+  4. Make sure "Public" is selected (GitHub Pages is free for public repositories).
+  5. Leave everything else unchecked and click "Create repository".
+
+STEP 2: UPLOAD THE FILES
+  METHOD A (Easiest - Drag and drop on the website):
+    1. On the new repository page, click the link that says "uploading an existing file".
+    2. Drag and drop ALL files and folders from inside this folder:
+         - index.html
+         - .nojekyll
+         - README.md
+         - assets (folder)
+         - songs (folder)
+         - ava-and-me-layout.jpg
+         - favicon.svg
+         - icons.svg
+    3. Scroll down and click the green "Commit changes" button.
+
+  METHOD B (Using Git commands if you have Git installed):
+    Open terminal in this folder and run:
+      git init
+      git add .
+      git commit -m "For Ava with love"
+      git branch -M main
+      git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+      git push -u origin main
+
+STEP 3: TURN ON GITHUB PAGES
+  1. In your GitHub repository, click "Settings" (top menu tab).
+  2. In the left sidebar, click "Pages".
+  3. Under "Build and deployment" -> "Branch":
+       - Select "main" branch.
+       - Leave the folder as "/ (root)".
+       - Click "Save".
+  4. Wait about 30 to 60 seconds.
+  5. Refresh the page. You will see a banner at the top:
+       "Your site is live at https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/"
+
+STEP 4: SEND THE LINK TO AVA 🤍
+  - Copy that link and send it directly to Ava on her phone!
+  - It works on any iPhone, Android, tablet, or computer.
+  - Passcode to open: 2123 (Hint: your birthday + mine).
+================================================================================
